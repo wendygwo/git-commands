@@ -104,6 +104,10 @@ You should be able to merge now
 
 `git remote -v`
 
+## To update the local list of remote branches
+
+`git remote update origin --prune`
+
 ## Checkout a new branch
 
 `git checkout -b <branchname>`
