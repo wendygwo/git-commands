@@ -39,6 +39,7 @@ If you run into merge conflicts
 Note: -f is `force` which will forcibly overwrite what you currently have in the remote version of your branch. Use with caution
 
 * Force push with lease (a kinder, gentler force push)
+
 `git push --force-with-lease`
 
 Read more about it: http://blog.developer.atlassian.com/force-with-lease/
