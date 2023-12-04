@@ -67,7 +67,7 @@ Read more about it: http://blog.developer.atlassian.com/force-with-lease/
 
 `:wq` in command line
 
-## Steps for merging from d ev branch into your working branch:
+## Steps for merging from dev branch into your working branch:
 `git checkout dev`
 
 `git pull`
@@ -90,6 +90,9 @@ Press :q to quit the file
 
 You should be able to merge now
 
+## Empty commit
+
+`git commit --allow-empty --no-verify -m “Empty commit”`
 
 ## See evolution of lines in git
 
